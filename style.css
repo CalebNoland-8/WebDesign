@@ -1,0 +1,22 @@
+/** ----------------- Header --------------------- **/
+
+header.nav{
+    background-color: #2A455D;
+    margin: 0; 
+    background-size: cover; 
+    position: relative;
+}
+
+img.nav{ 
+    display:inline-block;
+    vertical-align: middle;
+}
+p.nav{
+    display:inline-block;
+    vertical-align: middle;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/** -------------------- Section New Games ------------- **/
