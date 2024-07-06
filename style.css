@@ -73,11 +73,158 @@ p.nav:hover{
     box-shadow: 0px 3px 0px 0px #FEBB39;
 }
 
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.skill {
+  position: relative;
+  display: inline-block;
+}
+
+.skill-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.skill:hover .skill-content {
+  display: block;
+}
+
+
+
+.numbers {
+  position: relative;
+  display: inline-block;
+}
+
+.numbers-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.numbers:hover .numbers-content {
+  display: block;
+}
+
+
+
+.logic {
+  position: relative;
+  display: inline-block;
+}
+
+.logic-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.logic:hover .logic-content {
+  display: block;
+}
+
+
+
+.classic {
+  position: relative;
+  display: inline-block;
+}
+
+.classic-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.classic:hover .classic-content {
+  display: block;
+}
+
+
+
+.trivia {
+  position: relative;
+  display: inline-block;
+}
+
+.trivia-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.trivia:hover .trivia-content {
+  display: block;
+}
+
+
+
+.categories {
+  position: relative;
+  display: inline-block;
+}
+
+.categories-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.categories:hover .categories-content {
+  display: block;
+}
 /** -------------------- Section New Games ------------- **/
 
 
 section.newGames{
-  margin-left:500px;
+  margin-left:325px;
+  margin-right:650px;
+  margin-top: 20px;
+
+  
 }
 
 section.newGames header{
@@ -85,24 +232,26 @@ section.newGames header{
   color: #fff;
   
   padding:0px;
-  margin:150px 1100px 20px 0px;
+  margin:0px 0px 0px 0px;
 
   border-radius: 9px;
 
+  max-width: 1980px;
 }
 
 section.newGames header h3{
   display:inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   padding:5px 0px 5px 10px;
   margin:0px;
 }
 section.newGames header p{
   color: #88C4E6;
   display:inline-block;
-  vertical-align: middle;
+  vertical-align: top;
+  text-align: right;
   padding:0px 0px 0px 125px;
-  margin:0px 0px 0px 0px;
+  margin:0px 0px 0px 20px;
   font-size: 12px;
 }
 
@@ -110,7 +259,7 @@ section.newGames header p{
 
 article{
   display: block;
-  margin:10px 10px 30px 0px;
+  margin:10px 0px 30px 0px;
 }
 
 article img{
@@ -136,12 +285,13 @@ article p{
 }
 article h4{
   color:#29BFFD;
+  
 
   font-size:16px;
 
   margin-left: 100px;
   display: block;
-  margin: 2px 0px 5px 14px;
+  margin: 2px 130px 5px 14px;
 
 }
 
